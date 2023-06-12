@@ -1,1 +1,1 @@
-TinDog Starting Files
+Deia Design Studio landing page.
