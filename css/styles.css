@@ -2,8 +2,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+#header {
+  background-color: white;
+  color: white;
+}
+
 #title {
-  background-color: #ff4c68;
+  background-color: white;
   color: white;
 }
 
@@ -11,8 +16,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 6rem; 
+}
+
 h2 {
   font-weight: bold;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
 }
 
 h3 {
@@ -34,7 +47,11 @@ em {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 5% 7%;
+}
+
+.container-lg {
+  padding: 3% 5%;
 }
 
 /* Navigation Bar */
@@ -67,11 +84,19 @@ em {
   position: absolute;
 }
 
-/* Features Section */
-#features {
-  padding: 7% 15%;
-  background-color: white;
+/* Message Section */
+#message {
+  padding: 7% 5%;
+  background-color: black;
   position: relative;
+  padding-bottom: 3%;
+  border-bottom: 5%;
+  border-bottom-color: white;
+}
+
+.space {
+  padding-left : 10px;
+  padding-right : 10px;
 }
 
 .feature-box {
@@ -87,10 +112,28 @@ em {
   color: #ff4c68;
 }
 
-/* Testimonial Section */
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
+form input, form textarea {
+    background-color: rgba(40,40,40) !important;
+    color: lightgray !important;
+    border-color: black !important;
+}
+
+.form-control::placeholder {
+  color: darkgray;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Border Section */
+#border {
+  background-color: white;
+  font-size: 5px;
 }
 
 .testimonial-image {
@@ -106,15 +149,28 @@ em {
   padding-bottom: 3%;
 }
 
-.press-logo {
-  width: 15%;
+.mini-logo {
+  width: 8%;
   margin: 20px 20px 50px;
+}
+
+.heading-logo {
+  max-width: 60%;
+  margin: 10px 20px 50px;
 }
 
 .carousel-item {
   color: white;
   padding: 7% 15%;
 }
+
+.deia-background {
+  font-size: 70%;
+  color:black;
+  outline: none ;
+  background-color:rgba(229,238,141,1);
+}
+
 
 /* Pricing section */
 #pricing {
@@ -141,8 +197,11 @@ em {
 }
 
 #footer {
+  border-top:5px;
+  border-color:white;
   text-align: center;
-  padding: 7% 15%;
+  padding: 7% 5%;
+  background-color: rgba(229,238,141,1);
 }
 
 @media (max-width: 1028px) {
