@@ -52,7 +52,9 @@ em {
 }
 
 .container-fluid {
-  padding: 3% 5% 7%;
+  padding: 3% 5% 3%;
+  margin: auto;
+  max-width: 75%;
 }
 
 .container-xxl {
@@ -84,9 +86,8 @@ em {
 }
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
+  width: 150%;
+  height: auto;
 }
 
 /* Message Section */
