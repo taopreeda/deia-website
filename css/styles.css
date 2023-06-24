@@ -23,7 +23,7 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 h2 {
@@ -52,7 +52,7 @@ em {
 }
 
 .container-fluid {
-  padding: 3% 5% 3%;
+  padding: 3% 0% 3%;
   margin: auto;
   max-width: 75%;
 }
