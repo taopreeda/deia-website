@@ -23,7 +23,7 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 h2 {
@@ -158,10 +158,6 @@ textarea {
 .mini-logo {
   width: 8%;
   margin: 20px 20px 50px;
-}
-
-.heading-logo {
-  max-width: 20%;
 }
 
 .carousel-item {
