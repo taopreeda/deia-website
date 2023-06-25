@@ -58,7 +58,12 @@ em {
 }
 
 .container-xxl {
-  padding: 3% 5%;
+  padding: 3% 15%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Navigation Bar */
@@ -86,7 +91,7 @@ em {
 }
 
 .title-image {
-  width: 150%;
+  max-width: 60%;
   height: auto;
 }
 
